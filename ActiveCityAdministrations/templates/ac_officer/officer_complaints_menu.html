@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        .comp-menu .btn{background-color: blue;color: white;width: 200px;text-align: center;font-size: 18px;}
+        .comp-menu th{padding: 10px;}
+        .comp-menu a{color: white;}
+        .comp-menu a .btn:hover{color: white;}
+    </style>
+</head>
+<body>
+<table align="center" class="comp-menu">
+    <tr>
+        <th><a href="{% url 'officer_pending_complaints' %}?name={{ request.session.department }}"><button class="btn" type="submit"> Pending Complaints </button></a></th>
+        <th><a href="{% url 'officer_assigned_complaints' %}?name={{ request.session.department }}"><button class="btn" type="submit"> Assigned Complaints </button></a></th>
+        <th><a href="{% url 'closed_complaints_list' %}?name={{ request.session.department }}"><button class="btn" type="submit"> Closed Complaints </button></a></th>
+    </tr>
+</table>
+</body>
+</html>

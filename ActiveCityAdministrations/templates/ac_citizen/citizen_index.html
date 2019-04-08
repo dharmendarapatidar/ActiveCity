@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+{% include 'title.html' %}
+{% load staticfiles %}
+<html lang="en">
+<head>
+    <title>Citizen</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<style>
+    .row{max-height: 400px;}
+    .col1{border-right: 2px solid red;}
+    {#.col2{background-image: url("{% static 'images/citizenback.png' %}");#}
+    {#        background-repeat: no-repeat;overflow: scroll; height: 410px;}#}
+    .citizen-menu .btn{background-color: blue;color: white;width: 140px;text-align: center;font-size: 18px;}
+    .citizen-menu th{padding: 5px;}
+    .citizen-menu a{color: white;font-size: 20px;}
+    .citizen-menu a .btn:hover{color: white;}
+    .col2{overflow: scroll; height: 400px;}
+    {% block style %}
+    {% endblock %}
+
+</style>
+</head>
+<body>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-2 col1">
+            <table class="citizen-menu" align="center">
+                <tr>
+                    <th><a href="{% url 'citizen_home' %}"><button class="btn" type="submit"> Home </button></a></th>
+                </tr>
+                <tr>
+                    <th><a href="{% url 'complaints' %}"><button class="btn" type="submit"> Complaints </button></a></th>
+                </tr>
+                <tr>
+                    <th><a href="{% url 'citizen_suggestion' %}"><button class="btn" type="submit"> Suggestion </button></a></th>
+                </tr>
+                <tr>
+                    <th><a href="{% url 'feedback' %}"><button class="btn" type="submit"> Feedback </button></a></th>
+                </tr>
+                <tr>
+                    <th><a href="{% url 'view_complaints_status' %}?id={{ request.session.citzen_id }}"><button class="btn" type="submit"> View Status </button></a></th>
+                </tr>
+                <tr>
+                    <th><a href="{% url 'replay_list' %}?id={{ request.session.citzen_id }}"><button class="btn" type="submit"> View Replys </button></a></th>
+                </tr>
+                <tr>
+                    <th><a href="{% url 'citizen_logout' %}"><button class="btn" type="submit"> Logout </button></a></th>
+                </tr>
+            </table>
+        </div>
+        <div class="col-md-10 col2">
+            {% block body %}
+                <h2>Welcome to Citizen ==>Mr/Ms : {{ request.session.username }}</h2>
+
+
+            {% endblock %}
+        </div>
+    </div>
+{% include 'footer.html' %}
+</div>
+
+</body>
+</html>

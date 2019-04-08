@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{% static 'css/admin_menu.css' %}" type="text/css">
+    <style>
+
+    </style>
+</head>
+<body>
+<table class="admin-menu" align="center">
+    <tr>
+        <th><a href="{% url 'admin_home' %}"><button class="btn" type="submit"> HOME </button></a></th>
+    </tr>
+    <tr>
+        <th><a href="{% url 'admin_add_department' %}"><button class="btn" type="submit">Add Department </button></a></th>
+    </tr>
+    <tr>
+        <th><a href="{% url 'officer_register' %}"><button class="btn" type="submit"> Officer Register </button></a></th>
+    </tr>
+    <tr>
+        <th><a href="{% url 'ngo_register' %}"><button class="btn" type="submit"> NGO'S Register</button></a></th>
+    </tr>
+    <tr>
+        <th><a href="{% url 'admin_complaints_list' %}"><button class="btn" type="submit"> View Complaints </button></a></th>
+    </tr>
+    <tr>
+        <th><a href="{% url 'admin_suggestions_list' %}"><button class="btn" type="submit"> View Suggestion </button></a></th>
+    </tr>
+    <tr>
+        <th><a href="{% url 'admin_feedback_list' %}"><button class="btn" type="submit"> View Feedback </button></a></th>
+    </tr>
+    <tr>
+        <th><a href="{% url 'notification_list' %}"><button class="btn" type="submit"> View Notification </button></a></th>
+    </tr>
+    <tr>
+        <th><a href="{% url 'admin_logout' %}"><button class="btn" type="submit"> Logout </button></a></th>
+    </tr>
+</table>
+</body>
+</html>
