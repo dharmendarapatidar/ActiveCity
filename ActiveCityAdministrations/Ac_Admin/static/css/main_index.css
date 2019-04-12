@@ -1,3 +1,4 @@
+
 .col3{ margin-top: 10px;}
 hr.new1{background-color: red; height: 2px;}
 
@@ -31,3 +32,6 @@ hr.new1{background-color: red; height: 2px;}
         .about-city{}
         .about-city p{width: 80%; margin-left: 10%;font-size: 20px;
                     margin-top:5%;}
+.ftco-animate {
+  opacity: 0;
+  visibility: hidden; }

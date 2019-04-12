@@ -44,34 +44,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Ac_Citizen/citizen_serialize.py">
+        <entry file="file://$PROJECT_DIR$/templates/ac_citizen/citizen_complaints_index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
-              <folding>
-                <element signature="e#0#54#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="131">
+              <caret line="26" column="61" selection-start-line="26" selection-start-column="61" selection-end-line="26" selection-end-column="61" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Ac_Ngo/views.py">
+        <entry file="file://$PROJECT_DIR$/templates/ac_officer/officer_assigned_complaints.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2469">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-              <folding>
-                <element signature="e#0#45#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="350">
+              <caret line="47" column="57" selection-start-line="47" selection-start-column="57" selection-end-line="47" selection-end-column="57" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Ac_Citizen/urls.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Ac_Officer/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
-              <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+            <state relative-caret-position="215">
+              <caret line="41" column="45" lean-forward="true" selection-start-line="41" selection-start-column="45" selection-end-line="41" selection-end-column="45" />
               <folding>
                 <element signature="e#0#648#1" />
                 <element signature="e#649#681#0" expanded="true" />
@@ -81,33 +75,43 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Ac_Citizen/views.py">
+        <entry file="file://$PROJECT_DIR$/Ac_Officer/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="269" column="18" selection-start-line="269" selection-start-column="18" selection-end-line="269" selection-end-column="18" />
+            <state relative-caret-position="5550">
+              <caret line="222" column="58" selection-start-line="222" selection-start-column="58" selection-end-line="222" selection-end-column="58" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
-                <element signature="e#329#1465#0" />
-                <element signature="e#1526#2044#0" />
-                <element signature="e#2112#2757#0" />
-                <element signature="e#2815#3443#0" />
-                <element signature="e#3516#4204#0" />
-                <element signature="e#4333#5167#0" />
-                <element signature="e#5236#5532#0" />
-                <element signature="e#5590#6018#0" />
-                <element signature="e#6077#6439#0" />
-                <element signature="e#6490#7221#0" />
-                <element signature="e#7277#7561#0" />
-                <element signature="e#7616#7904#0" />
-                <element signature="e#7968#8411#0" />
-                <element signature="e#8464#8679#0" />
-                <element signature="e#8813#8947#0" />
-                <element signature="e#9069#9287#0" />
-                <element signature="e#9416#9558#0" />
-                <element signature="e#9593#9856#0" />
-                <element signature="e#9947#10089#0" />
-                <element signature="e#10124#10387#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Ac_Citizen/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="31">
+              <caret line="51" column="42" lean-forward="true" selection-start-line="51" selection-start-column="42" selection-end-line="51" selection-end-column="42" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/ac_citizen/complaints.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="181">
+              <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/ac_citizen/feedback.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="10" column="40" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -125,14 +129,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/templates/ac_citizen/complaints.html" />
-        <option value="$PROJECT_DIR$/templates/ac_officer/officer_complaints_index.html" />
-        <option value="$PROJECT_DIR$/templates/ac_officer/officer_index.html" />
         <option value="$PROJECT_DIR$/templates/ac_officer/officer_closed_complaints.html" />
         <option value="$PROJECT_DIR$/templates/ac_officer/officer_assigned_complaints.html" />
         <option value="$PROJECT_DIR$/templates/ac_officer/officer_pending_complaints.html" />
         <option value="$PROJECT_DIR$/templates/ac_citizen/citizen_complaints_menu.html" />
-        <option value="$PROJECT_DIR$/templates/ac_citizen/citizen_complaints_index.html" />
         <option value="$PROJECT_DIR$/templates/ac_admin/admin_pending_complaints.html" />
         <option value="$PROJECT_DIR$/templates/ac_admin/assigned_complaints.html" />
         <option value="$PROJECT_DIR$/templates/ac_admin/closed_complaints.html" />
@@ -148,14 +148,11 @@
         <option value="$PROJECT_DIR$/templates/ac_admin/contact_us.html" />
         <option value="$PROJECT_DIR$/Ac_Admin/models.py" />
         <option value="$PROJECT_DIR$/templates/ac_admin/contact_us_list.html" />
-        <option value="$PROJECT_DIR$/Ac_Admin/static/css/main_index.css" />
         <option value="$PROJECT_DIR$/ActiveCityAdministrations/urls.py" />
         <option value="$PROJECT_DIR$/Ac_Admin/views.py" />
         <option value="$PROJECT_DIR$/Ac_Officer/models.py" />
         <option value="$PROJECT_DIR$/templates/ac_officer/officer_otp_check.html" />
         <option value="$PROJECT_DIR$/Ac_Admin/urls.py" />
-        <option value="$PROJECT_DIR$/templates/main_index.html" />
-        <option value="$PROJECT_DIR$/templates/ac_admin/about_active_city.html" />
         <option value="$PROJECT_DIR$/templates/ac_admin/admin_menu.html" />
         <option value="$PROJECT_DIR$/Ac_Admin/static/css/admin_menu.css" />
         <option value="$PROJECT_DIR$/templates/ac_admin/admin_complaints_menu.html" />
@@ -169,21 +166,28 @@
         <option value="$PROJECT_DIR$/templates/footer.html" />
         <option value="$PROJECT_DIR$/templates/ac_officer/officer_feedbacks_list.html" />
         <option value="$PROJECT_DIR$/templates/ac_officer/officer_suggestion_list.html" />
-        <option value="$PROJECT_DIR$/Ac_Officer/views.py" />
         <option value="$PROJECT_DIR$/templates/sidebar_menu.html" />
         <option value="$PROJECT_DIR$/Ac_Citizen/citizen_serialize.py" />
-        <option value="$PROJECT_DIR$/Ac_Citizen/views.py" />
         <option value="$PROJECT_DIR$/ActiveCityAdministrations/settings.py" />
         <option value="$PROJECT_DIR$/Ac_Ngo/views.py" />
         <option value="$PROJECT_DIR$/Ac_Citizen/urls.py" />
+        <option value="$PROJECT_DIR$/Ac_Admin/static/css/main_index.css" />
+        <option value="$PROJECT_DIR$/templates/ac_admin/about_active_city.html" />
+        <option value="$PROJECT_DIR$/templates/title.html" />
+        <option value="$PROJECT_DIR$/templates/main_index.html" />
+        <option value="$PROJECT_DIR$/Ac_Citizen/views.py" />
+        <option value="$PROJECT_DIR$/templates/ac_officer/officer_register.html" />
+        <option value="$PROJECT_DIR$/templates/ac_citizen/complaints.html" />
+        <option value="$PROJECT_DIR$/templates/ac_citizen/citizen_complaints_index.html" />
+        <option value="$PROJECT_DIR$/Ac_Officer/views.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="357" />
-    <option name="y" value="4" />
-    <option name="width" value="893" />
-    <option name="height" value="640" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="15" />
+    <option name="y" value="5" />
+    <option name="width" value="1040" />
+    <option name="height" value="755" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -205,7 +209,18 @@
             <path>
               <item name="ActiveCityAdministrations" type="b2602c69:ProjectViewProjectNode" />
               <item name="ActiveCityAdministrations" type="462c0819:PsiDirectoryNode" />
-              <item name="Ac_Ngo" type="462c0819:PsiDirectoryNode" />
+              <item name="Ac_Officer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ActiveCityAdministrations" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ActiveCityAdministrations" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ActiveCityAdministrations" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ActiveCityAdministrations" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="ac_officer" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -244,7 +259,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.officer_menu.html">
+  <component name="RunManager" selected="Django server.ActiveCityAdministrations">
     <configuration name="officer_menu.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ActiveCityAdministrations/templates/ac_officer/officer_menu.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -254,6 +269,7 @@
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="ActiveCityAdministrations.settings" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
@@ -296,31 +312,34 @@
       <workItem from="1553245719771" duration="14682000" />
       <workItem from="1553317874226" duration="5166000" />
       <workItem from="1554140153739" duration="5068000" />
+      <workItem from="1554805424840" duration="9297000" />
+      <workItem from="1554876891145" duration="80000" />
+      <workItem from="1555049503088" duration="7038000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69702000" />
+    <option name="totallyTimeSpent" value="86117000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17019667" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17700455" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32843137" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.76811594" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="manage.py@ActiveCityAdministrations" order="8" weight="0.84863126" />
+      <window_info active="true" anchor="bottom" id="manage.py@ActiveCityAdministrations" order="8" weight="0.84863126" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32843137" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.8180354" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="13" />
       <window_info anchor="bottom" id="Database Console" order="14" weight="0.32843137" />
@@ -335,124 +354,11 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="das://3d610375-b9cf-4acd-a0c3-ee76bd56c514/schema/main/table/Ac_Admin_contact_us">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/ac_admin/admin_suggestions_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="49" column="12" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ac_Admin/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/ac_admin/contact_us_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="28" column="42" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ac_Admin/static/css/main_index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="3" column="17" lean-forward="true" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ac_Ngo/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="24" column="19" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ActiveCityAdministrations/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="26" column="15" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#648#1" />
-            <element signature="e#649#681#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/ac_citizen/citizen_otp_check.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="11" column="16" lean-forward="true" selection-end-line="37" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://3d610375-b9cf-4acd-a0c3-ee76bd56c514/schema/main/table/Ac_Officer_officer_table">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ac_Officer/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="13" column="54" selection-start-line="13" selection-start-column="54" selection-end-line="13" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/ac_officer/officer_otp_check.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="16" column="49" lean-forward="true" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/ac_admin/admin_index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ac_Admin/static/images/active4.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Ac_Admin/static/images/Active_logo2.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Ac_Admin/static/images/active_city.png">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/title.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-233" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/ac_admin/about_active_city.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="51" column="114" selection-start-line="51" selection-start-column="114" selection-end-line="51" selection-end-column="114" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/main_index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="86" column="40" lean-forward="true" selection-start-line="86" selection-start-column="40" selection-end-line="86" selection-end-column="40" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/menu.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -565,13 +471,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://3d610375-b9cf-4acd-a0c3-ee76bd56c514/schema/main/table/Ac_Citizen_citizen_table">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/ac_citizen/feedback_list.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -607,31 +506,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ac_Officer/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13">
-          <caret line="244" column="57" selection-start-line="244" selection-start-column="57" selection-end-line="244" selection-end-column="57" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/ac_officer/officer_menu.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="21" column="46" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ac_Officer/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="44" column="50" selection-start-line="44" selection-start-column="50" selection-end-line="44" selection-end-column="50" />
-          <folding>
-            <element signature="e#0#648#1" />
-            <element signature="e#649#681#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -669,49 +547,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ac_Citizen/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="269" column="18" selection-start-line="269" selection-start-column="18" selection-end-line="269" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-            <element signature="e#329#1465#0" />
-            <element signature="e#1526#2044#0" />
-            <element signature="e#2112#2757#0" />
-            <element signature="e#2815#3443#0" />
-            <element signature="e#3516#4204#0" />
-            <element signature="e#4333#5167#0" />
-            <element signature="e#5236#5532#0" />
-            <element signature="e#5590#6018#0" />
-            <element signature="e#6077#6439#0" />
-            <element signature="e#6490#7221#0" />
-            <element signature="e#7277#7561#0" />
-            <element signature="e#7616#7904#0" />
-            <element signature="e#7968#8411#0" />
-            <element signature="e#8464#8679#0" />
-            <element signature="e#8813#8947#0" />
-            <element signature="e#9069#9287#0" />
-            <element signature="e#9416#9558#0" />
-            <element signature="e#9593#9856#0" />
-            <element signature="e#9947#10089#0" />
-            <element signature="e#10124#10387#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ActiveCityAdministrations/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="27" column="30" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#324#1" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Ac_Citizen/citizen_serialize.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
+        <state relative-caret-position="100">
           <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
           <folding>
             <element signature="e#0#54#0" expanded="true" />
@@ -721,21 +559,173 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Ac_Ngo/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2469">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="600">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
           <folding>
             <element signature="e#0#45#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ActiveCityAdministrations/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#324#1" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/ac_admin/contact_us.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/ac_admin/about_active_city.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="33" column="29" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/rest_framework/static/rest_framework/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="4" column="1886" selection-start-line="4" selection-start-column="1886" selection-end-line="4" selection-end-column="1886" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://3d610375-b9cf-4acd-a0c3-ee76bd56c514/schema/main/table/Ac_Citizen_citizen_table">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/title.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-55">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Ac_Citizen/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="429">
-          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
           <folding>
             <element signature="e#0#648#1" />
             <element signature="e#649#681#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://d589fb63-3e74-4068-8aab-af4324adca52/schema/main/table/Ac_Officer_officer_table">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://d589fb63-3e74-4068-8aab-af4324adca52/schema/main/table/django_session">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ac_Admin/static/css/main_index.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/ac_officer/officer_register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/ac_officer/officer_otp_check.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="725">
+          <caret line="29" column="37" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/main_index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/ac_officer/officer_complaints_index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/ac_citizen/feedback.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="40" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/ac_citizen/complaints.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://d589fb63-3e74-4068-8aab-af4324adca52/schema/main/table/Ac_Citizen_citizen_table">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/ac_citizen/citizen_complaints_index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="26" column="61" selection-start-line="26" selection-start-column="61" selection-end-line="26" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/ac_officer/officer_assigned_complaints.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="47" column="57" selection-start-line="47" selection-start-column="57" selection-end-line="47" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ac_Officer/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="41" column="45" lean-forward="true" selection-start-line="41" selection-start-column="45" selection-end-line="41" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#648#1" />
+            <element signature="e#649#681#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ac_Officer/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5550">
+          <caret line="222" column="58" selection-start-line="222" selection-start-column="58" selection-end-line="222" selection-end-column="58" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ac_Citizen/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="51" column="42" lean-forward="true" selection-start-line="51" selection-start-column="42" selection-end-line="51" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>

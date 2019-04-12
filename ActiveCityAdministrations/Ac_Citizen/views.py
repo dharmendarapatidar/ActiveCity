@@ -49,7 +49,7 @@ def send_otp(mobile,otp):
     url = "https://www.fast2sms.com/dev/bulk"
     payload = "sender_id=FSTSMS&message=Your One Time Password to Register : "+otp+"&language=english&route=p&numbers="+mobile
     headers = {
-        'authorization': "zjPCNqR6MwdZqbrE4iQc9ipixWFSwbA95Xg8vxgxr2YyMd0o4SKz39tXESR8",
+        'authorization': "qg0IvLB8p3qK7GKbFxBJUmYztZUeEG7U5yEX8OCqdMy7ZZ52yZafKO4SrsnR",
         'Content-Type': "application/x-www-form-urlencoded",
         'Cache-Control': "no-cache",
     }
@@ -65,7 +65,7 @@ def ACASMS(mobile):
     message = "Dear Citizen, You have successfully registered for Active City Administration Application"
     payload = "sender_id=FSTSMS&message="+message+"&language=english&route=p&numbers="+mobile
     headers = {
-        'authorization': "zjPCNqR6MwdZqbrE4iQc9ipixWFSwbA95Xg8vxgxr2YyMd0o4SKz39tXESR8",
+        'authorization': "qg0IvLB8p3qK7GKbFxBJUmYztZUeEG7U5yEX8OCqdMy7ZZ52yZafKO4SrsnR",
         'Content-Type': "application/x-www-form-urlencoded",
         'Cache-Control': "no-cache",
     }
@@ -131,8 +131,7 @@ def complaints_view(request):
             status = 'pending'
             Complaint_Table(
                 dept_name_id=dept_name, citz_id_id=citz_id,
-                message=message, image=image, status=status,
-            ).save()
+                message=message, image=image, status=status,).save()
             messages.success(request, 'Complaint Send Successfully')
             return render(request, 'ac_citizen/complaints.html/', {'data1': qs1, 'data2': citz_id})
         else:

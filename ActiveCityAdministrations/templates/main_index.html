@@ -10,9 +10,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <style>
-
     {% block style %}
-
     {% endblock %}
   </style>
 </head>
@@ -22,11 +20,12 @@
 </div>
 <div class="container-fluid">
     <div class="row">
-        <div class="col-lg-2 col-sm-2 col-xs-1 col1">
+{#        <div class="col-lg-2 col-sm-2 col-xs-1 col1 ftco-animate">#}
+        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-2 col1">
         <div class="thumbnail">
             <table align="center">
                 <tr>
-                    <img class="img1" src="{% static 'images/active3.jpg' %}" width="195px" height="150px">
+                    <img class="img1" src="{% static 'images/active3.jpg' %}" width="100%" height="10%">
                     <hr class="new1">
                 </tr>
                 <tr>
@@ -52,7 +51,7 @@
             </table>
         </div>
         </div>
-        <div class="col-md-8 col2">
+        <div class="col-xs-12 col-sm-8 col-md-6 col-lg-8 col2">
             {% include 'menu.html' %}
         <div class="body-block">
             {% block body %}
@@ -62,7 +61,7 @@
                     {% for c in feed_list %}
                         <tr>
                             <th>{{ c.feed_id }}&emsp;Mr.&emsp;{{ c.citz_id.name }}</th>
-                            <th rowspan="3">&emsp;<img src="{{ c.image.url }}" width="200" height="100"></th>
+                            <th rowspan="3">&emsp;<img src="{{ c.image.url }}" width="50%" height="50%"></th>
                         </tr>
                         <tr>
                             <th colspan="2">{{ c.feed_date }}</th>
@@ -76,7 +75,7 @@
             {% endblock %}
         </div>
             <div class="about-city">
-                <img src="{% static 'images/active_city.png' %}" width="900">
+                <img src="{% static 'images/active_city.png' %}" width="100%">
                 <p>Active City is a non-profit organization dedicated to ensuring that young
                     people in Hartford have access to organized and affordable youth athletic programs.
                     We support organizations and programs that serve youth through athletic programing
@@ -89,11 +88,11 @@
 
 
         </div>
-        <div class="col-md-2 col3">
+        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-2 col3">
             {% include 'sidebar_menu.html' %}
 
 {#            content#}
-            <img src="{% static 'images/active4.jpg' %}" width="200" height="150">
+            <img src="{% static 'images/active4.jpg' %}" width="100%" height="10%">
             <hr class="new1">
             <div class="activity">
             <p class="aap">Article Activities...!</p>
@@ -101,7 +100,7 @@
                     <table class="article-table">
                         {% for art in art_list %}
                         <tr>
-                            <th>{{ art.art_id }} <img src="{% static 'images/bom.jpg' %}" width="35" height="35"></th>
+                            <th>{{ art.art_id }} <img src="{% static 'images/bom.jpg' %}" width="15%" height="15%"></th>
                         </tr>
                         <tr>
                            <th>{{ art.name }}</th>
@@ -125,9 +124,9 @@
                 Free Health Check
             </p>
             <hr class="new1">
-            <img src="{% static 'images/active2.jpg' %}" width="165px" height="119px">
+            <img src="{% static 'images/active2.jpg' %}" width="100%" height="10%">
             <hr class="new1">
-            <img src="{% static 'images/citizen2.jpg' %}" width="165px" height="119px">
+            <img src="{% static 'images/citizen2.jpg' %}" width="100%" height="10%">
             <hr class="new1">
         </div>
         {% include 'footer.html' %}

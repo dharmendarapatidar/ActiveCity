@@ -36,11 +36,13 @@ def officer_register(request):
             four = password[3]
 
             otp = four + one + str(two) + three
+            print(otp)
 
             mess = send_otp(mobile, otp)
 
             import json
             d = json.loads(mess.text)
+            print(d)
             if d['return']:
                 Officer_Table(
                     name=name, mobile=mobile, email=email,dept_name_id=dept_name,otp=otp,
@@ -61,7 +63,7 @@ def send_otp(mobile,otp):
     url = "https://www.fast2sms.com/dev/bulk"
     payload = "sender_id=FSTSMS&message=Your One Time Password to Register : "+otp+"&language=english&route=p&numbers="+mobile
     headers = {
-        'authorization': "zjPCNqR6MwdZqbrE4iQc9ipixWFSwbA95Xg8vxgxr2YyMd0o4SKz39tXESR8",
+        'authorization': "qg0IvLB8p3qK7GKbFxBJUmYztZUeEG7U5yEX8OCqdMy7ZZ52yZafKO4SrsnR",
         'Content-Type': "application/x-www-form-urlencoded",
         'Cache-Control': "no-cache",
     }
@@ -77,7 +79,7 @@ def ACASMS(mobile):
     message = "Dear Officer, You have successfully registered in Active City Administration Application for Officer Post"
     payload = "sender_id=FSTSMS&message="+message+"&language=english&route=p&numbers="+mobile
     headers = {
-        'authorization': "zjPCNqR6MwdZqbrE4iQc9ipixWFSwbA95Xg8vxgxr2YyMd0o4SKz39tXESR8",
+        'authorization': "qg0IvLB8p3qK7GKbFxBJUmYztZUeEG7U5yEX8OCqdMy7ZZ52yZafKO4SrsnR",
         'Content-Type': "application/x-www-form-urlencoded",
         'Cache-Control': "no-cache",
     }
@@ -218,7 +220,7 @@ def closed_complaint(request):
         qs = Complaint_Table.objects.filter(comp_id=cmpid, status='assigned')
         if qs:
             qs.update(status='closed', close_date=date)
-            return render(request, 'ac_officer/officer_closed_complaints.html')
+            return redirect('officer_assigned_complaints')
         return redirect('officer_assigned_complaints')
     except KeyError:
         return redirect('officer_login')

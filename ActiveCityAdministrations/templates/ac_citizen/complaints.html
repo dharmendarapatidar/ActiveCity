@@ -8,6 +8,7 @@
         .complaint-table th{padding:5px;font-size:20px;}
         h1{color:green;}
         hr.hr2{background-color:orange;height:2px;  }
+        .message{background-color:aqua;}
     {% endblock %}
 </head>
 <body>
@@ -17,6 +18,11 @@
         <table class="complaint-table">
             <tr>
                 <th colspan="2"><h1>Complaints....!</h1><hr class="hr2"> </th>
+            </tr>
+            <tr>
+                {% for message in messages %}
+                    <th class="message">{{ message }}</th>
+                {% endfor %}
             </tr>
             <tr>
                 <th>Department ID:</th>
